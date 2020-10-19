@@ -4,7 +4,12 @@
     overflow-x: hidden;
 }
 
+body{
+    background-color: lightblue;
+}
+
 .game {
+    background-color: white;
     width: 500px;
     height: 200px;
     border: 1px solid black;
@@ -48,15 +53,16 @@
     animation: block 1s infinite linear;
 }
 
-@keyframes block {
-    0% {
+@keyframes block{
+    0%{
         left: 500px;
     }
-    100% {
+    100%{
         left: -20px;
     }
 }
 
-p {
+p{
+    color: red;
     text-align: center;
 }
